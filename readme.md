@@ -1,33 +1,31 @@
-Here’s a **polished `README.md`** you can use for your project repo 👇
 
----
 
 ````markdown
 # 🎮 Tic-Tac-Toe (C++ OOP + Minimax AI)
 
-An interactive **Tic-Tac-Toe game** built in **C++** with clean **Object-Oriented Design (LLD concepts)** and an **AI opponent** powered by the **Minimax algorithm with Alpha–Beta pruning**.
+An interactive Tic-Tac-Toe game built in C++ with clean Object-Oriented Design (LLD concepts) and an AI opponent powered by the Minimax algorithm with Alpha–Beta pruning.
 
 ---
 
 ## ✨ Features
-- **Human vs AI gameplay** (choose X or O).
-- **AI opponent** that never loses:
-  - Uses **Minimax Algorithm** with **Alpha–Beta pruning**.
+- Human vs AI gameplay (choose X or O).
+- AI opponent that never loses:
+  - Uses Minimax Algorithm with Alpha–Beta pruning.
   - Prioritizes faster wins and delays losses.
-- **OOP / LLD Design**:
+- OOP / LLD Design:
   - `Board` → Manages game state.
   - `Player` (abstract) → Base class for players.
   - `HumanPlayer` → Handles user input.
   - `AIPlayer` → Implements Minimax algorithm.
   - `Game` → Orchestrates turns, rules, and result checking.
-- **Clean CLI interface** with numbered grid.
-- **Extensible Design** → easy to add difficulty levels, larger boards, or GUI.
+- Clean CLI interface with numbered grid.
+- Extensible Design → easy to add difficulty levels, larger boards, or GUI.
 
 ---
 
 ## 🛠️ Tech Stack
-- **Language:** C++17
-- **Concepts Used:** OOP, Low-Level Design, Minimax Algorithm, Alpha–Beta Pruning
+- Language: C++17
+- Concepts Used: OOP, Low-Level Design, Minimax Algorithm, Alpha–Beta Pruning
 
 ---
 
@@ -56,8 +54,7 @@ g++ -std=c++17 -O2 -o ttt_oop tic_tac_toe_oop.cpp
 ## 🕹️ How to Play
 
 1. Choose your symbol: `X` or `O`.
-
-   * `X` always moves first.
+   X always moves first.
 2. Choose who starts the game (`X` or `O`).
 3. Input a number \[1–9] to place your mark in the grid:
 
@@ -75,13 +72,12 @@ g++ -std=c++17 -O2 -o ttt_oop tic_tac_toe_oop.cpp
 
 ## 🧠 Minimax Algorithm (with Alpha–Beta Pruning)
 
-* The AI explores all possible moves and **minimizes the worst-case outcome**.
-* **Alpha–Beta pruning** reduces the number of branches explored, making it efficient.
+* The AI explores all possible moves and minimizes the worst-case outcome.
+* Alpha–Beta pruning reduces the number of branches explored, making it efficient.
 * Evaluation:
-
-  * `+10` → AI wins
-  * `-10` → Human wins
-  * `0` → Draw
+  +10 → AI wins
+  -10 → Human wins
+  0 → Draw
 
 ---
 
@@ -121,10 +117,10 @@ AI (O) plays at cell 5.
 
 ## 🔮 Future Enhancements
 
-* Add **difficulty levels** (limit search depth).
-* Extend to **4x4 Tic-Tac-Toe** or **Connect Four**.
-* Build a **GUI** version with SFML or Qt.
-* Online **multiplayer mode**.
+* Add difficulty levels (limit search depth).
+* Extend to 4x4 Tic-Tac-Toe or Connect Four.
+* Build a GUI version with SFML or Qt.
+* Online multiplayer mode.
 
 ---
 
@@ -134,12 +130,5 @@ This project is licensed under the MIT License. Feel free to use, modify, and di
 
 ---
 
-👨‍💻 Developed by **\[Your Name]**
+👨‍💻 Developed by Ankit Adhikari
 
-```
-
----
-
-Would you like me to also make **resume-ready bullet points** (like 2–3 lines) you can directly paste into your CV for this project?
-```
-# tic-tac-toe-OOPS-LLD
